@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midia HTML5</title>
+    </head>
+    <body>
+        <!-- MP3 WAV OGG -->
+        <h1>Adicionando e Reproduzindo audio</h1>
+        <audio src="music/audio.mp3" controls></audio>
+        <p>Para colocar usei a tag <b>&lt;audio&gt;</b></p>
+        <p>Para fins de compatibilidade use a tag &lt;audio&gt; e &lt;/audio&gt; e dentro coloque um source:src</p>
+        <audio preload="metadata">
+            <source src="music/audio.mp3" type="audio/mpeg">
+            <source src="music/audio2.wav" type="audio/mav">
+            <source src="music/audio3.ogg" type="audio/ogg">
+            <p>O seu navegador não reproduz audio click <a href="music/audio.mp3" download="audio.mp3" type="audio/mpeg">aqui</a> para baixar</p>
+        </audio>
+        <h3><a href="index.html" target="_self" rel="prev">Pagina Anterior</a></h3>
+    </body>
+</html>

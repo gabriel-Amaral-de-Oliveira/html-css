@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(50deg,rgb(88, 22, 209) 30%, #18d8ac 60%);
+    text-align: center;
+}

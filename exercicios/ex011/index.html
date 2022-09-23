@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midia HTML5</title>
+    </head>
+    <body>
+        <h1>Imagem Dinâmica</h1>
+        <p>Abrir em tamanhos diferentes mudam a Imagem <br>
+            Para isso usei as seguintes tags <br> <b>&lt;picture&gt;</b> | comando crtl+espace selecionando <b>source:media:type</b> | <b>&lt;img&gt;</b> <br>
+            Esse <b>&lt;source&gt;</b> possue três atributos <br>
+            <b>media</b> = indica o tamanho maximo a ser considerado para carregar a imagem indicada no atributo srcset<br>
+            <b>srcset</b> = vai configurar o nome da imagem que será carregada quando o tamanho indicado for atingido<br>
+            <b>type</b> = indica o tamanho maximo a ser considerado para carregar a imagem indicada no atributo
+        </p>
+        <h3><a href="Pag2.html" target="_self" rel="next">pagina dois</a></h3>
+        <picture>
+            <!--cada source por ordem de tamanho do menor para o maior-->
+            <!--O min-width troca por max-width-->
+            <source media="(max-width: 700px)" srcset="image/FotoP.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="image/FotoM.png" type="image/png">
+            <img src="image/FotoG.png" alt="Imagem Grande">
+        </picture>
+    </body>
+</html>
