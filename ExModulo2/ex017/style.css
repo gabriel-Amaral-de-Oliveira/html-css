@@ -20,6 +20,9 @@ main{
     /*margin: auto; = centraliza*/
     margin: auto;
 }
+h4{
+    text-align: center;
+}
 h2{
     color: #39a1a3;
 }
