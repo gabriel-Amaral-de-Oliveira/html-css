@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 main{
     margin: auto;
     width: 500px;
@@ -21,6 +21,6 @@ h2{
 }
 p{
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Lora;
     font-weight: bolder;
 }
