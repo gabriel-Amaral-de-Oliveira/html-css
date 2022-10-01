@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div {
+            border: 2px solid black;
+            background-color: white;
+            display: inline-block;
+            border-radius: 15px;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        /* Pseudo-Classe */
+        div:hover {
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.505);
+            border-radius: 20px;
+            background-color: aquamarine;
+        }
+
+        #d4 {
+            height: 20px;
+            width: 100px;
+            /* 
+            height = Altura
+            width = Largura
+            */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- elemento de divisão - para conteúdo de fluxo -->
+    <div>01</div>
+    <div>02</div>
+    <div>03</div> <br> <br>
+    <div id="d4"><a href="Pag01.html" target="_blank">Pag 01</a></div>
+</body>
+
+</html>

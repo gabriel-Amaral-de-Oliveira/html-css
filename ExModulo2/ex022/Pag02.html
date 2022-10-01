@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: monospace, sans-serif;
+        }
+
+        a {
+            color: chartreuse;
+            text-decoration: none;
+        }
+
+        a:visited { /* Quando eu visito o site */
+            color: rgb(89, 162, 15);
+        }
+
+        a:hover { /* Quando passa o mouse em cima */
+            color: rgb(141, 146, 13);
+            text-decoration: underline;
+        }
+
+        a:active { /* Quando clica */
+            color: black;
+        }
+
+        a::after{
+            content: '[Link]';
+            color: darkcyan;
+        }
+
+        .Item{
+            text-shadow: 2px 1px 3px rgb(117, 117, 117);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gabriel-Amaral-de-Oliveira" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCRiLj23SLYzpexLsRGxsuyA/featured" target="_blank">Canal do Youtube</a></li>
+    </ul>
+    <h2>Seletores Personalizados</h2>
+    <ul type="square">
+        <code>
+            <li class="Item"># - Id</li>
+            <li class="Item">. - Class</li>
+            <li class="Item">: - Pseudo-Class</li>
+            <li class="Item">:: - Pseudo-Elemento</li>
+            <li class="Item">> - children = Filho</li>
+        </code>
+    </ul>
+</body>
+
+</html>

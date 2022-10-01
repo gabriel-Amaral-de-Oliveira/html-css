@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Lora;
+    src: url(fonts/Lora-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: Lora1;
+    src: url(fonts/Lora-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+    background-image: linear-gradient(20deg,#28A146 60%, lightblue);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.509);
+}
+
+h1 {
+    color: #83faa0;
+    font-family: sans-serif,monospace;
+}
+h2{
+    font-family: Lora1;
+}
+
+#principal {
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 15pc;
+    font-family: Lora;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.587);
+}
+
+.basico {
+    color: #f79260;
+}
+
+.intermediario {
+    color: #546DA8;
+}
+
+.avancado {
+    color: #A3331A;
+}
