@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif, monospace;
+            background-image: linear-gradient(35deg, #02A676 50%, #387373 70%, #93BFB7);
+            margin: 0px;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: #007369;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 2px rgb(54, 52, 52);
+        }
+
+        nav {
+            background-color: #003840;
+            padding: 3px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            color: rgb(135, 135, 135);
+            margin: 15px;
+        }
+
+        article {
+            background-color: #007369;
+        }
+
+        article>aside {
+            background-color: #93BFB7;
+        }
+
+        footer {
+            background-color: #003840;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 1px 1px 3px black;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre sla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quo perferendis dicta molestias totam
+                    repellat excepturi perspiciatis, blanditiis itaque ad saepe eius inventore iusto sint nihil autem et
+                    consectetur iure! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur accusantium
+                    excepturi voluptas nulla saepe porro, ab natus nobis, perferendis reiciendis quod. Dolor ullam porro
+                    quia fuga excepturi velit fugiat reiciendis.</p>
+                <aside>
+                    <p>Artigo feito por gabriel</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gabriel</p>
+    </footer>
 </body>
+
 </html>
