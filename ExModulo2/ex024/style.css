@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Lora;
+    src: url(fonts/Lora-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+    font-family: Lora,sans-serif, monospace;
+    background-image: linear-gradient(35deg, #02A676 50%, #387373 70%, #93BFB7);
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #007369;
+    padding: 10px;
+    margin: 10px;
+    /*o parametro inset coloca a sobra para dentro*/
+    box-shadow: 3px 3px 4px rgba(54, 52, 52, 0.485);
+    border-radius: 20px;
+}
+
+main{
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    background-color: #003840;
+    padding: 4px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #dfdfdf;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: rgb(135, 135, 135);
+    margin: 15px;
+}
+
+article {
+    background-color: #007369;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+
+article>aside {
+    background-color: #93BFB7;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 510px;
+}
+
+footer {
+    background-color: #003840;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
