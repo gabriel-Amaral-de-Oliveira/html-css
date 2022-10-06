@@ -35,13 +35,20 @@ header {
     text-decoration: none;
 }
 
-div{
-    text-align: center;
+div {
     background-color: white;
     margin: 10px 10px;
 
 }
 
-div>h1{
+div>h1 {
     font-family: idroid;
+    text-align: center;
+    color: #217949;
+}
+
+div>h2{
+    background-image: linear-gradient(50deg,#56d890, white);
+    font-family: idroid;
+    color: #195634;
 }
