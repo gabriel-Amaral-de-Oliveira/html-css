@@ -5,6 +5,11 @@
     src: url(fonts/idroid.otf) format('opentype');
 }
 
+@font-face {
+    font-family: Lora;
+    src: url(fonts/Lora-VariableFont_wght.ttf) format('truetype');
+}
+
 body {
     background-color: #84E1AD;
 }
@@ -44,6 +49,7 @@ div {
     margin-left: 15%;
     margin-right: 15%;
     align-items: center;
+    box-shadow: 2px 0px 10px #0e301d56;
 }
 
 div>h1 {
@@ -60,4 +66,9 @@ div>h2{
 
 div>picture{
     display: grid;
+}
+
+p{
+    font-family: Lora;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
 }
